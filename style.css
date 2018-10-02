@@ -1,0 +1,94 @@
+html{
+	height: 100%;
+	border: 15px solid #2b81ac;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: #3399cc;
+	background-attachment: fixed;
+	background-size: contain;
+	font-family:“Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: white;
+}
+.weather{
+	box-sizing: border-box;
+	width: 50%;
+	height: 600px;
+	margin: 2% auto;
+	font-size: 22px;
+
+}
+ul:hover li:not(:hover) {
+  opacity: 0.5;
+}
+
+.cities{
+	list-style-type: none;
+	padding: 0;
+	font-size: 0;
+	border: 2px solid white;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+li{
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border: 2px solid white;
+	text-align: center;
+}
+.temperature{
+	opacity: 0.5;
+	width: 50px;
+	margin-top: 5px;
+}
+#one{
+	width: 50%;
+
+}
+
+#two{
+	background-color: #3cc;
+	width: 25%
+}
+#three{
+	background-color: #969;
+	width:25%;
+}
+#four{
+	background-color: #c24747;
+	width: 25%;
+}
+#five{
+	background-color: #e2674A;
+	width: 25%;
+}
+#six{
+	background-color: #fc6;
+	width: 25%;
+}
+#seven{
+	background-color: #9c9;
+	width: 25%;
+}
+#eight{
+	background-color: #699;
+	width: 25%;
+}
+#nine{
+	background-color: #c69;
+	width: 50%;
+}
+#ten{
+	background-color: #396;
+	width: 25%;
+}
+#eleven{
+	background-color: #669;
+	width: 100%;
+}
+
